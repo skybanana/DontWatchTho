@@ -4,6 +4,9 @@
   "version": "1.0",
   "description": "Youtube Shots bocker \"I Don't Watch it Though\"",
   "permissions": ["storage", "activeTab"],
+  "action": {
+    "default_popup": "popup.html"
+  },
   "content_scripts": [
     {
       "matches": ["https://www.youtube.com/*"],
